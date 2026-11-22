@@ -1,6 +1,3 @@
-/* ============================================================
-   Shopino - Modern E-commerce Storefront
-   ============================================================ */
 
 /* ---------- DOM References ---------- */
 const productsEl = document.querySelector('#products');
@@ -397,8 +394,5 @@ exploreBtn.addEventListener('click', () =>
   document.querySelector('#toolbar').scrollIntoView({ behavior: 'smooth' })
 );
 
-/* ============================================================
-   Init
-   ============================================================ */
 renderHeader();
 loadProducts();
